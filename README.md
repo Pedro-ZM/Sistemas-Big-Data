@@ -67,8 +67,8 @@ Añade metainformación de la serie en el DataFrame, como "Nombre", si está dis
 
 Permite seleccionar únicamente las columnas relevantes, facilitando análisis y visualización.
 
-:::note
+### Notas Adicionales
 La función asume que las URLs proporcionadas devuelven una respuesta JSON en el formato esperado por la API.
 
 Si alguna de las columnas solicitadas no existe en los datos, simplemente se omite.
-:::
+
