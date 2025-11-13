@@ -54,5 +54,5 @@ Para cumplir con el objetivo de trabajo colaborativo, se seguirá un flujo de tr
 2. Crear **ramas** (`feature/`, `fix/`) para cada nueva funcionalidad o script (ej. `feature/api-openweather`).
 3. Realizar **Pull Requests (PRs)** para integrar los cambios en `main`.
 4. estos son los cambios de alberto
-5. segundo cambio de alberto
+5. Subir aciertos
 
