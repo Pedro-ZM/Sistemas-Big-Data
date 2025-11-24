@@ -42,7 +42,7 @@ El archivo contiene la función obtener_datos, diseñada para acceder a distinto
  - Ejecutas: python -m pip install pandas requests mysql numpy
    
 ### Uso
-El uso principal se realiza mediante el archivo de datos_puros.py. Este archivo recoge datos del INE y los mete en una base de datos.
+El uso principal se realiza mediante los archivos de datos_*.py. Se recogen datos del INE y se meten en una base de datos MySQL.
 
 **Aclaración:** El archivo Consulta.sql crea la base de datos y las tablas necesarias.
 
