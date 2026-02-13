@@ -1,0 +1,8 @@
+polars
+plotly
+mysql-connector-python
+python-dotenv
+requests
+pandas
+numpy
+pyarrow

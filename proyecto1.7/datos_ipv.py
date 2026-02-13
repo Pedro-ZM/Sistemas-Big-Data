@@ -8,12 +8,36 @@ data = requests.get(URL1).json()
 conexion = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="root",
+    password="",
     database="fila_2"
 
 )
 
 cursor = conexion.cursor()
+
+# Crear tablas si no existen
+cursor.execute("""
+    CREATE TABLE IF NOT EXISTS ipv (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        COD VARCHAR(50),
+        Nombre VARCHAR(255)
+    )
+""")
+
+cursor.execute("""
+    CREATE TABLE IF NOT EXISTS data_ipv (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        Fecha VARCHAR(50),
+        FK_Periodo VARCHAR(50),
+        Anyo INT,
+        Valor DECIMAL(10, 2),
+        id_ipv INT,
+        FOREIGN KEY (id_ipv) REFERENCES ipv(id)
+    )
+""")
+
+conexion.commit()
+
 contador = 1
 for i in data:
     cursor.execute(
