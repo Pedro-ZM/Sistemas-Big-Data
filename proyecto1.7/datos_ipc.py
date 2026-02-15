@@ -54,4 +54,4 @@ conexion.commit()
 cursor.close()
 conexion.close()
 
-print("✅ Datos insertados correctamente ")
+print("Datos insertados correctamente ")
