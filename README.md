@@ -121,4 +121,34 @@ python proyecto1.7/main_analysis.py
 - **plotly** → Visualizaciones interactivas
 - **pyarrow** → Conversión entre Polars y Pandas
 
+## Contenido
+- [Gráfico 1: Serie temporal (Hoja 1)](#gráfico-1-serie-temporal-hoja-1)
+- [Gráfico 2: Mapa de calor por CCAA y año (Hoja 2)](#gráfico-2-mapa-de-calor-por-ccaa-y-año-hoja-2)
+- [Gráfico 3: Dispersión (Hoja 3)](#gráfico-3-dispersión-hoja-3)
+- [Gráfico 4: Mapa coroplético por regiones](#gráfico-4-mapa-coroplético-por-regiones)
+
+## Gráfico 1: Serie temporal (Hoja 1)
+Muestra la evolución anual del **IPC (Variación Anual)** a lo largo del tiempo (2017–2025). Permite ver tendencias, picos y periodos de desaceleración.
+
+![Hoja 1 - Serie temporal IPC](images/img4.png)
+
+## Gráfico 2: Mapa de calor por CCAA y año (Hoja 2)
+Heatmap con **CCAA** en filas y **años** en columnas. El color representa la magnitud del valor: tonos más cálidos suelen indicar valores más altos y tonos más fríos valores más bajos. Es útil para detectar rápidamente años atípicos y diferencias regionales.
+
+![Hoja 2 - Heatmap CCAA vs Año](images/img2.png)
+
+## Gráfico 3: Dispersión (Hoja 3)
+Diagrama de dispersión que relaciona el **Promedio IPC (Variación Anual)** (eje X) con el **Promedio de Variación Interanual (IPV)** (eje Y). Sirve para observar correlaciones (si existen) y localizar outliers.
+
+![Hoja 3 - Dispersión IPC vs IPV](images/img3.png)
+
+## Gráfico 4: Mapa coroplético por regiones
+Mapa de España coloreado por regiones según el valor de la métrica representada (IPC/variación). Facilita entender la distribución espacial y comparar territorios de un vistazo.
+
+![Mapa - Coroplético por regiones](images/img1.png)
+
+
+
+
+
 
